@@ -1,7 +1,6 @@
-venv
 *~
-.DS_Store
+\#*\#
+db.sqlite3
 __pycache__/
 *.py[cod]
-flymd.md
-flymd.html
+local_settings.py

@@ -1,0 +1,29 @@
+[
+{
+  "model": "myapp.flower",
+  "pk": 1,
+  "fields": {
+    "title": "Amelanchier alnifolia",
+    "description": "Amelanchier alnifolia, the saskatoon, Pacific serviceberry, western serviceberry, alder-leaf shadbush, dwarf shadbush, chuckley pear, or western juneberry.",
+    "image": "images/Amelanchier-alnifolia.jpg"
+  }
+},
+{
+  "model": "myapp.flower",
+  "pk": 2,
+  "fields": {
+    "title": "Amelanchier asiatica",
+    "description": "Amelanchier asiatica, commonly known as Korean juneberry[ or Asian serviceberry, is a species in the genus Amelanchier, native to China, Japan, and Korea. It is a shrub or small tree, growing to about 12 metres (39 ft) tall.",
+    "image": "images/Amelanchier-asiatica.jpg"
+  }
+},
+{
+  "model": "myapp.flower",
+  "pk": 3,
+  "fields": {
+    "title": "Agapanthus",
+    "description": "Agapanthus is the only genus in the subfamily Agapanthoideae of the flowering plant family Amaryllidaceae. The family is in the monocot order Asparagales.",
+    "image": "images/Agapanthus-africanus.jpg"
+  }
+}
+]
