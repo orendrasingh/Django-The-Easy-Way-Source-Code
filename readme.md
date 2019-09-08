@@ -2,8 +2,11 @@
 
 Source code for my Django beginner book.
 
-This book teaches you how to build a Django web application
-from scratch and deploy it to a production server.
+This book teaches you how to build a Django web application from scratch and deploy it to a production server.
+
+Check out the introduction video:
+
+[<img src="https://img.youtube.com/vi/C65X2qWuU5A/maxresdefault.jpg" width="50%">](https://youtu.be/C65X2qWuU5A)
 
 # How to use this?
 
