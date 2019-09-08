@@ -9,7 +9,7 @@ Read more: <https://samulinatri.com/shop/django-the-easy-way>
 
 # How to use this?
 
-In the book we create this project step-by-step but you can test the final product with the following commands.
+In the book we create this project step-by-step but you can test the final product like this:
 
 ## Windows
 
@@ -28,7 +28,7 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-## Mac, Linux (Unix-like systems)
+## macOS, Linux (Unix-like systems)
 
 ```
 mkdir demo
