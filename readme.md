@@ -12,11 +12,15 @@ Check out the introduction video:
 
 [<img src="https://img.youtube.com/vi/C65X2qWuU5A/maxresdefault.jpg" width="50%">](https://youtu.be/C65X2qWuU5A)
 
-# How to use this?
+## About the author
+
+Hi, my name is Samuli Natri. I’m a programmer focusing on **Python** and **Django**. I also dabble with C/C++ and OpenGL. I’m familiar with Node.js, Asp.Net Core, Drupal, C#, JavaScript, PHP, HTML and CSS. I attended Helsinki University of Technology (Computer Science) and Helsinki University (Social Sciences).
+
+## How to use this?
 
 In the book we create this project step-by-step but you can test the final product like this:
 
-## Windows
+### Windows
 
 ```
 mkdir demo
@@ -33,7 +37,7 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-## macOS, Linux (Unix-like systems)
+### macOS, Linux (Unix-like systems)
 
 ```
 mkdir demo
