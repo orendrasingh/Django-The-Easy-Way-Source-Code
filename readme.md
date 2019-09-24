@@ -2,7 +2,7 @@
 
 <img align="left" width="100" src="misc/cover.png">
 
-<h3>Source code for my Django beginner book: https://samulinatri.com/shop/django-the-easy-way</h3>
+<h3>Source code for my Django beginner book: https://leanpub.com/django-the-easy-way/</h3>
 
 This book teaches you how to build a Django web application from scratch and deploy it to a production server.
 
