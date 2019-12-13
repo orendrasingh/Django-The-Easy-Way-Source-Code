@@ -1,4 +1,11 @@
-# Django - The Easy Way
+# Django - The Easy Way (3rd Edition)
 
-Source code for my Django book.
+<img align="left" width="100" src="misc/cover.png">
 
+<h3>Source code for my Django beginner book: https://leanpub.com/django-the-easy-way/</h3>
+
+This book teaches you how to build a Django web application from scratch and deploy it to a production server.
+
+## About the author
+
+Samuli Natri is a programmer who specialises in Django, Python and JavaScript development. He attended Helsinki University of Technology (Computer Science) and Helsinki University (Social Sciences).
