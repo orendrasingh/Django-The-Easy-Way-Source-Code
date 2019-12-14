@@ -16,7 +16,7 @@
 
 <h4>Key Features</h4>
 
-o Beginner-friendly <b>function-based</b> approach
+o Beginner-friendly <b>function-based</b> approach.
 
 o Covers all <b>essential concepts</b>.
 
