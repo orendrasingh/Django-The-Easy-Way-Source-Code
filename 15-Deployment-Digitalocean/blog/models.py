@@ -34,6 +34,8 @@ class Post(models.Model):
                                      processors=[ResizeToFill(700, 150)],
                                      format='JPEG',
                                      options={'quality': 60})
+    description = models.TextField(default='',
+                                   blank=True)
 
     def __str__(self):
         return self.title

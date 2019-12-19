@@ -15,16 +15,20 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'SECRET_KEY'
+from decouple import config
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = config('DEBUG',
+               default=False,
+               cast=bool)
 
-ALLOWED_HOSTS = []
+SECRET_KEY = config('SECRET_KEY')
+
+ALLOWED_HOSTS = config('ALLOWED_HOSTS',
+                       cast=lambda v: [s.strip() for s in v.split(',')])
 
 # Application definition
 
@@ -134,7 +138,18 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
 
-try:
-    from .local_settings import *
-except ImportError:
-    pass
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+ENV = config('ENV', default='production')
+
+if ENV == 'production':
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': config('DB_NAME', default=''),
+            'USER': config('DB_USER', default=''),
+            'PASSWORD': config('DB_PASSWORD', default=''),
+            'HOST': 'localhost',
+            'PORT': '',
+        }
+    }
