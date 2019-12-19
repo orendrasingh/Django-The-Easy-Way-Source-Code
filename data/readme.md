@@ -2,7 +2,7 @@
 
 *Note*: this folder contains data for testing purposes. You don't have to use any of it.
 
-`data.json` contains mock data that you can import to the database when the site is complete:
+`data.json` contains mock data that you can import to the database after the site is complete:
 
 ```
 python manage.py loaddata data/data.json
@@ -16,7 +16,7 @@ You can copy the `media_files` folder to the project root and rename it as `medi
 
 # Configuration files
 
-`local_settings_prod.py` contains settings used in the production environment.
+`.env_local` and `.env_prod` are environment specific configuration examples.
 
 # Attribution
 
