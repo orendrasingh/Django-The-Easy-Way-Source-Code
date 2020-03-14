@@ -1,0 +1,9 @@
+[
+{
+  "model": "mysite.blog",
+  "pk": 1,
+  "fields": {
+    "title": "Lorem ipsum"
+  }
+}
+]

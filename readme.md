@@ -2,7 +2,7 @@
 
 <img align="left" width="100" src="data/images/cover.png">
 
-<h4>[Updated 2020.03.01] Works with Django 2 and 3!</h4>
+<h4>[Updated 2020.03.14]</h4>
 
 [LeanPub (Free updates)](https://leanpub.com/django-the-easy-way)
 

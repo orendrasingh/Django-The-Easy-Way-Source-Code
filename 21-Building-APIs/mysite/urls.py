@@ -16,13 +16,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from . import views
+from .views import home, blog_api_view, blog_api_detail_view
 
 urlpatterns = [
+    path('', home, name="home"),
     path('admin/', admin.site.urls),
-    path('api/', views.blog_api_view,
+    path('api/', blog_api_view,
          name="blog_api_view"),
-    path('api/<int:pk>/', views.blog_api_detail_view,
+    path('api/<int:pk>/', blog_api_detail_view,
          name="blog_api_detail_view"),
     path('api/auth/', include('rest_auth.urls')),
     path('api/auth/registration/',
